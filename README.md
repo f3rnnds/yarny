@@ -1,5 +1,5 @@
 # yarny
 
-web app to keep track of point and row count progress
+web app to track crochet points and rows counts progress
 
 ![](screenshot.png)
