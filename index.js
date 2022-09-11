@@ -118,7 +118,7 @@ function populateRows() {
             // is a row
             const div = document.createElement("div")
             const rowBadge = document.createElement("span")
-            rowBadge.className = "badge badge-pill badge-secondary"
+            rowBadge.className = "badge rounded-pill bg-secondary"
             rowBadge.innerText = "row" + row.row
             const span = document.createElement("span")
             span.innerText = row.text
@@ -127,7 +127,7 @@ function populateRows() {
             div.appendChild(span)
 
             const pointsBadge = document.createElement("span")
-            pointsBadge.className = "badge badge-pill badge-dark"
+            pointsBadge.className = "badge rounded-pill bg-secondary"
             pointsBadge.innerText = row.points.length + "pt"
 
             rowElem.appendChild(div)
