@@ -279,7 +279,7 @@ function setRow(newRow) {
         point = "points" in recipe[row] ? recipe[row].points.length - 1 : 0
         updatePoint()
 
-        previousPointAudio()
+        previousRowAudio()
     }
 }
 
