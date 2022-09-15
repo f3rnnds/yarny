@@ -176,7 +176,7 @@ function updatePoint() {
         // update comment, description and progress bar
         pointElem.innerText = currRow.text
 
-        descriptionElem.innerText = ""
+        descriptionElem.innerText = "comment"
 
         progressElem.style.width = "100%"
         progressElem.innerText = "1/1"

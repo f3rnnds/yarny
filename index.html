@@ -4,52 +4,54 @@
 
 <head>
 	<title>yarny</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css" rel="stylesheet">
 </head>
 
-<body class="h-100">
-	<div class="container-fluid h-100 d-flex flex-column py-3">
-		<div class="row">
-			<div class="col-12 d-flex mb-3">
-				<label class="h4 me-3" for="recipe">recipe</label>
-				<div class="input-group">
-					<input id="recipe" type="text" class="form-control">
-					<button id="recipe-compile" class="btn btn-primary">compile</button>
-				</div>
+<body class="h-100" style="font-family: Segoe UI;">
+	<div class="container-fluid h-100 d-flex flex-column px-3">
+		<div class="d-flex justify-content-center mt-3">
+			<label class="h4 mb-3">🧶 yarny</label>
+		</div>
+
+		<div class="d-flex mb-2">
+			<label class="h4 me-3" for="recipe">recipe</label>
+			<div class="input-group">
+				<input id="recipe" type="text" class="form-control">
+				<button id="recipe-compile" class="btn btn-primary">compile</button>
 			</div>
 		</div>
 
 		<div class="row h-100">
-
-			<div class="col-4 h-100 d-flex flex-column">
-				<h4 class="mb-3">rows</h4>
-				<div class="h-100 position-relative overflow-auto mb-3">
+			<div class="col-md-4 d-flex flex-column mb-3">
+				<h4>rows</h4>
+				<div class="h-100 position-relative overflow-auto mb-2">
 					<ul id="rows" class="list-group w-100 position-absolute"></ul>
 				</div>
-				<div class="progress mb-3" style="min-height: 48px;">
-					<div id="rows-progress" class="progress-bar"></div>
+				<div class="progress mb-2" style="height: 20px;">
+					<div id="rows-progress" class="progress-bar text-white"></div>
 				</div>
-				<div class="btn-group btn-group-lg w-100" role="group">
-					<button id="rows-previous" class="btn btn-primary">⮢</button>
-					<button id="rows-next" class="btn btn-primary">⮣</button>
+				<div class="btn-group btn-group w-100" role="group">
+					<button id="rows-previous" class="btn btn-primary">↶</button>
+					<button id="rows-next" class="btn btn-primary">↷</button>
 				</div>
 			</div>
 
-			<div class="col-8 h-100 d-flex flex-column">
-				<h4 class="mb-3">points</h4>
-				<div class="card h-100 justify-content-center text-center mb-3">
+			<div class="col-md-8 d-flex flex-column mb-3">
+				<h4>points</h4>
+				<div class="card h-100 justify-content-center text-center mb-2">
 					<h1 id="point" class="display-1"></h1>
 					<span id="point-description" class="text-muted"></span>
 				</div>
-				<div class="progress mb-3" style="min-height: 48px;">
-					<div id="points-progress" class="progress-bar"></div>
+				<div class="progress mb-2" style="height: 20px;">
+					<div id="points-progress" class="progress-bar text-white"></div>
 				</div>
-				<div class="btn-group btn-group-lg w-100" role="group">
-					<button id="points-previous" class="btn btn-primary">⭠</button>
-					<button id="points-next" class="btn btn-primary">⭢</button>
+				<div class="btn-group btn-group w-100" role="group">
+					<button id="points-previous" class="btn btn-primary">←</button>
+					<button id="points-next" class="btn btn-primary">→</button>
 				</div>
 			</div>
-
 		</div>
 
 	</div>
