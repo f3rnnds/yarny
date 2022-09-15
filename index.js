@@ -6,6 +6,7 @@ document.getElementById("rows-previous").addEventListener("click", previousRow)
 document.getElementById("points-next").addEventListener("click", nextPoint)
 document.getElementById("points-previous").addEventListener("click", previousPoint)
 document.addEventListener("keyup", (e) => { if (e.code === "Space") nextPoint() })
+document.getElementById("recipe").addEventListener("keyup", (e) => { if (e.code === "Enter") compileRecipe() })
 
 const table = {
     "sc": { "name": "single crochet", "cost": 1 },
