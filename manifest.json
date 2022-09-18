@@ -1,0 +1,15 @@
+{
+	"name": "yarny",
+	"short_name": "yarny",
+	"start_url": "/",
+	"display": "standalone",
+	"theme_color": "#375a7f",
+	"background_color": "#222222",
+	"icons":[
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+	]
+}
