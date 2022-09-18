@@ -1,10 +1,10 @@
 //change to force update
 const cacheName = "yarny-cache-v1"
 const urlsToCache = [
-    "/",
-    "index.html",
-    "index.js",
-    "icon.png",
+    "/yarny/",
+    "/yarny/index.html",
+    "/yarny/index.js",
+    "/yarny/icon.png",
     "https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css"
 ]
 

@@ -1,7 +1,7 @@
 {
 	"name": "yarny",
 	"short_name": "yarny",
-	"start_url": "/",
+	"start_url": "/yarny/",
 	"display": "standalone",
 	"theme_color": "#375a7f",
 	"background_color": "#222222",
