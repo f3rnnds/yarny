@@ -106,7 +106,7 @@ function populateRows() {
 
     recipe.forEach(function (row, index) {
         const rowElem = document.createElement("button")
-        rowElem.className = "list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+        rowElem.className = "list-group-item list-group-item-action border-start-0 border-end-0 d-flex justify-content-between align-items-center"
         rowElem.addEventListener("click", () => { setRow(index) })
 
         if (!("points" in row)) {
